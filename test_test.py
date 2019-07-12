@@ -1,2 +1,5 @@
 import pytest
-assert (3 == 5)
+
+def test_test():
+  assert (3 == 5)
+
