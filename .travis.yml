@@ -3,6 +3,6 @@ python: 3.6
 before_install: cd /home/travis/build/VenkatArchitect/Python
 before_script: cd /home/travis/build/VenkatArchitect/Python
 install:
-#pip freeze > requirements.txt
+pip freeze > requirements.txt
 pip install -r requirements.txt
 script: pytest
