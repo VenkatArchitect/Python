@@ -1,5 +1,9 @@
 import pytest
+import os
+cwd = os.getcwd()
 
-def test_test():
-  assert (3 == 5)
+print (cwd)
+
+#def test_test():
+#  assert (3 == 5)
 
