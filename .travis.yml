@@ -5,4 +5,4 @@ before_script: cd /home/travis/build/VenkatArchitect/Python
 install:
 pip freeze > requirements.txt
 pip install -r requirements.txt
-script: pytest
+script: python test_test.py
