@@ -3,4 +3,4 @@ language: python
 python:
   - "3.7"
 dist: xenial
-script: pytest
+script: pytest /home/travis/build/VenkatArchitect/Python
