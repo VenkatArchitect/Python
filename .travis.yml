@@ -16,4 +16,4 @@ before_install:
 # command to install dependencies
 install: "pip install -r requirements.txt"
 # command to run tests
-script: pytest
+script: python test_assert.py
