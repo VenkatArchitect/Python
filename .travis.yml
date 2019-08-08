@@ -1,8 +1,8 @@
 dist: xenial   # required for Python >= 3.7
 language: python
 python:
-  - "nightly" # currently points to 3.7-dev
+  - "3.7" # currently points to 3.7-dev
 # command to install dependencies
-install: "pip install -r requirements.txt"
+#install: "pip install -r requirements.txt"
 # command to run tests
 script: cat test_assert.py;python test_assert.py
