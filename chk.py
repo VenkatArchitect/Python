@@ -1,1 +1,1 @@
-// return day of the week
+""" return day of the week
